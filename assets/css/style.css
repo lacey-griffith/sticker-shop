@@ -1,5 +1,8 @@
 
 /*HEADER*/
+header {
+    margin: 50px;
+}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +29,9 @@ header nav ul li a {
     width: 45%;
     border: solid 2px black;
     margin: 0 10px 0 10px;
+    text-align: center;
 }
 footer {
     text-align: center;
+    margin: 50px;
 }
