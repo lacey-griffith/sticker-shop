@@ -1,5 +1,7 @@
-
-/*HEADER*/
+:root {
+    --primary-font: helvetica;
+}
+/*HEADER FOR ALL PAGES*/
 header {
     margin: 50px;
 }
@@ -14,11 +16,15 @@ header nav ul li a {
     font-size: 18px;
     color: black;
     padding: 0 30px 0 30px;
+    font-family: var(--primary-font);
 }
+
+/*HOME*/
 .home-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: var(--primary-font);
 }
 .about {
     width: 45%;
@@ -34,4 +40,45 @@ header nav ul li a {
 footer {
     text-align: center;
     margin: 50px;
+    font-family: var(--primary-font);
 }
+
+/*SHOP*/
+.shop-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: var(--primary-font);
+}
+.scroll-gallery {
+    height: max-content;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+.scroll-gallery img {
+    margin: 15px;
+}
+.categories {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.category {
+    flex: 1 33%;
+}
+
+/* UNDER CONSTRUCTION
+/*CUSTOM ORDERS
+.custom-order-content
+.contact-order-form
+
+/*FAQ
+.faq-content
+
+/*CONTACT
+.contact-content
+.contact-form
+*/
